@@ -1,12 +1,13 @@
 import _ from 'lodash';
 import "./style.css";
-import Dices from "./dices.png"
+import {version} from "../package.json";
+import Dices from "./dices.png";
 
 function component() {
     const element = document.createElement('div');
   
     // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    element.innerHTML = _.join(['Hello', 'Jérémy', `v${version}`], ' ');
     element.classList.add("hello");
   
     // Add the image to our existing div.
