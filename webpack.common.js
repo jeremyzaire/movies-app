@@ -5,7 +5,6 @@ const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
 module.exports = {
   entry: {
     index: "./src/index.js",
-    print: "./src/print.js",
   },
   output: {
     filename: "[name].bundle.js",
