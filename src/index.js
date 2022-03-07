@@ -1,6 +1,5 @@
 import _ from "lodash";
 import "./style.css";
-import { version } from "../package.json";
 import Dices from "./dices.png";
 import printMe from "./print.js";
 
@@ -9,7 +8,7 @@ function component() {
   const btn = document.createElement("button");
 
   // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "Jérémy", `v${version}`], " ");
+  element.innerHTML = _.join(["Hello", "Jérémy"], " ");
   element.classList.add("hello");
 
   // Add the image to our existing div.
