@@ -1,10 +1,9 @@
 # Movies App
 
-## Formation exercise
-Quatrième exercice
+## Formation
+Exercise 4
 
 ## Getting Started
-
 
 Install all dependencies: 
 ```
