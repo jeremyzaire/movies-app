@@ -5,5 +5,14 @@ Quatrième exercice
 
 ## Getting Started
 
-Install node
-Install npm
+
+Install all dependencies: 
+```
+npm install
+```
+
+
+Compile the app:
+```
+npx webpack
+```
