@@ -38,3 +38,9 @@ Launch linter :
 ```
 npm run lint
 ```
+
+Launch json server :
+
+```
+npm run start:api
+```
