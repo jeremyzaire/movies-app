@@ -8,7 +8,7 @@ export default class InputSearch {
     this.$inputSearch.setAttribute("name", "search");
     this.$inputSearch.placeholder = "Search...";
     this.$inputSearch.setAttribute("autocomplete", "off");
-    this.$inputSearch.classList.add("this.$inputSearch");
+    this.$inputSearch.classList.add("inputSearch");
 
     parentNode.appendChild(this.$inputSearch);
   }
