@@ -1,4 +1,5 @@
-[
+{
+  "entities": [
     {
       "id": "tt0110413",
       "resultType": "Title",
@@ -217,3 +218,4 @@
       "description": "[us] (Production)"
     }
   ]
+}
