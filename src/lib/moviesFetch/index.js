@@ -10,7 +10,7 @@ export default function moviesFetch(route, options = {}) {
   return fetch(`${apiUrl}${route}`, {
     ...options,
     headers: {
-      "x-session": "formation",
+      headers: { ...options.headers, "x-session": "formation" },
     },
   });
 }
